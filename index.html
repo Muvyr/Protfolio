@@ -6,9 +6,41 @@
         <meta name="description" content="Yann Masson Protfolio">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>Hi !</h1>
-        <script src="" async defer></script>
+        <div id="home">
+        <div id="info">
+            <h1 class="name">Yann Masson</h1>
+
+            <div id="autotype">
+                <h1>I'm <span class="auto-type"></span></h1>
+              
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+              
+                <script>
+              
+                    var typed = new Typed(".auto-type", {
+                      strings: ["an Epitech Student", "18 years", "French"],
+                      typeSpeed: 200,
+                      backSpeed: 200,
+                      loop: true,
+                    })
+                </script>
+            </div>
+        </div>
+        <div id="pictures">
+            <div class="pic-ctn">
+                <img src="https://picsum.photos/200/300?t=1" alt="" class="pic">
+                <img src="https://picsum.photos/200/300?t=2" alt="" class="pic">
+                <img src="https://picsum.photos/200/300?t=3" alt="" class="pic">
+                <img src="https://picsum.photos/200/300?t=4" alt="" class="pic">
+                <img src="https://picsum.photos/200/300?t=5" alt="" class="pic">
+              </div>
+        </div>
+        </div>
+
+        
+        
     </body>
 </html>
